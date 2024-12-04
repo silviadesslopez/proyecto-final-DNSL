@@ -1,0 +1,379 @@
+* { margin: 0;
+    padding: 0; }
+
+body { margin: 0;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.6; }
+
+h1 { font-family: "Coiny", system-ui; }
+
+/* Barra de navegación */
+.navbar { background: rgb(13,102,173);
+        background: radial-gradient(circle, rgba(13,102,173,0.5606617647058824) 0%, rgba(62,76,156,0.6615021008403361) 100%);
+        background-color: white;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000; }
+
+/* Logo de la barra de navegación */
+.navbar .logo { font-size: 20px; }
+
+/* Enlaces de la barra de navegación */
+.navbar .links a { color: white;
+                text-decoration: none;
+                padding: 10px 15px;
+                margin: 0 5px;
+                transition: background-color 0.3s ease, color 0.3s ease; }
+
+/* Cambios al pasar el cursor */
+.navbar .links a:hover { background-color: rgba(62,76,156,0.639093137254902);
+                        border-radius: 5px; }
+
+/* Contenido principal */
+.about { padding: 0px;
+        box-align: center; }
+
+.about img { width: 667px;
+            height: 400px;
+            display: block; }
+
+
+.about h1, .about p { padding-left: 20px; 
+                    padding-right: 20px;
+                    text-align: center;
+                    margin: 0; }
+
+.about h1 { padding-top: 110px; }
+
+.about p { padding: 30px;
+            padding-top: 25px;
+            padding-bottom: 110px; }
+
+/*Link about*/
+.aboutt h1, .aboutt p { padding-left: 20px; 
+                        padding-right: 20px;
+                        text-align: center;
+                        margin: 0;
+                        background: rgb(82,64,147);
+                        color: white; }
+
+.aboutt h1 { padding-top: 110px;
+            font-size: 35px; }
+
+.aboutt p { padding: 30px;
+            padding-top: 25px;
+            padding-bottom: 110px; }
+
+/*Link servicios, introducción*/
+.services { padding: 0px;
+            box-align: center; }
+
+.services h1, .services p { padding-left: 20px; 
+                            padding-right: 20px;
+                            text-align: center; }
+
+.services h1 { padding-top: 90px;
+                font-size: 35px; }
+
+.services p { padding: 30px;
+            padding-top: 25px;
+            padding-bottom: 90px; }
+
+/*Link servicios, offset*/
+.container-offset { display: flex;
+                    align-items: center;
+                    width: 667px;
+                    height: 400px; }
+
+.container-offset img { width: 50%; }
+
+.container-offset p, .container-offset h2 { padding: 20px;
+                                            background-color: rgb(13, 101, 173);
+                                            color: white; }
+
+.container-offset h2 { padding-top: 100px; } 
+
+
+.container-offset p { padding-top: 35px;
+                        padding-bottom: 110px; }
+
+/*Links servicios, digital*/
+.container-digital { display: flex;
+                    align-items: center;
+                    width: 667px;
+                    height: 400px; }
+
+.container-digital img { width: 50%; }
+
+.container-digital p, .container-digital h2 { padding: 20px;
+    background-color: rgb(82,64,147);
+    color: white; }
+
+.container-digital h2 { padding-top: 105px; } 
+
+
+.container-digital p { padding-top: 35px;
+padding-bottom: 105px; }
+
+
+/*Links servicios, 3d*/
+.container-3d { display: flex;
+    align-items: center;
+    width: 667px;
+    height: 400px; }
+
+.container-3d img { width: 50%; }
+
+.container-3d p, .container-3d h2 { padding: 20px;
+background-color: rgb(13, 101, 173);
+color: white; }
+
+.container-3d h2 { padding-top: 100px; } 
+
+
+.container-3d p { padding-top: 35px;
+padding-bottom: 100px; }
+
+/*Links servicios, packaging*/
+.container-packaging { display: flex;
+    align-items: center;
+    width: 667px;
+    height: 400px; }
+
+.container-packaging img { width: 50%; }
+
+.container-packaging p, .container-packaging h2 { padding: 20px;
+background-color: rgb(82,64,147);
+color: white; }
+
+.container-packaging h2 { padding-top: 115px; } 
+
+
+.container-packaging p { padding-top: 35px;
+padding-bottom: 115px; }
+
+/*links servicio, extras*/
+.extras h1 { padding: 20px;
+                        padding-top: 40px; 
+                        text-align: center;
+                        margin: 0;
+                        font-size: 35px; }
+
+.servicios-extras { display: flex;
+                    justify-content: space-around; /* Espacio uniforme entre los contenedores */
+                    align-items: flex-start; }
+
+/*extras, barnizado*/
+.servicio-barnizado { display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 50%; }
+
+.servicio-barnizado img { width: 100%; }
+
+.servicio-barnizado .text { text-align: center; }
+
+.servicio-barnizado h2 { padding-top: 40px; }
+
+.servicio-barnizado p { padding: 10px;
+                        padding-top: 25px;
+                        padding-bottom: 40px; }
+
+/*extras, relieve*/
+.servicio-relieve { display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 50%; }
+
+.servicio-relieve img { width: 100%; }
+
+.servicio-relieve .text { text-align: center; }
+                    
+.servicio-relieve h2 { padding-top: 40px; }
+                    
+.servicio-relieve p { padding: 10px;
+                        padding-top: 25px;
+                        padding-bottom: 40px; }
+
+/*Contacto*/
+.contact { padding: 0px;
+            box-align: center;
+            background: rgb(13, 101, 173);
+            color: white; }
+
+.contact h1, .contact p { padding-left: 20px; 
+                        padding-right: 20px;
+                        text-align: center;
+                        margin: 0; }
+
+.contact h1 { padding-top: 110px;
+                font-size: 30px; }
+
+.contact p { padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 15px; }
+
+.contact .text { padding-bottom: 110px; }
+
+/*asesoria*/
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fefefe;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Botón de envío */
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/*Pie de pagina*/
+footer { padding: 20px 30px;
+        font-size: 15px;
+        background: rgb(0, 0, 0);
+        color: white; }
+
+
+/*Pantallas de más de 1380px, computadoras*/
+@media only screen and (min-width: 1580px) {
+
+    /*header*/
+    .navbar .logo { padding-top: 10px;
+                    padding-left: 15px;
+                    font-size: 30px; }
+    .navbar .links a { font-size: 20px; }
+
+    /*about*/
+    .about img { width: 1600px; }
+    .about h1 { font-size: 40px; }
+    .about p { font-size: 20px; }
+    .about h1, .about p { padding-left: 80px;
+                            padding-right: 80px; }
+
+    /*nosotros*/
+    .aboutt h1 { font-size: 40px; }
+    .aboutt p { font-size: 20px; }
+    .aboutt h1, .aboutt p { padding-left: 80px;
+                            padding-right: 80px; }
+
+    /*servicios*/
+    /*descripcion*/
+    .services h1 { font-size: 40px; }
+    .services p { font-size: 20px; }
+    .services h1, .services p { padding-left: 80px;
+                                padding-right: 80px; }
+
+    /*listado*/
+    .container-offset, .container-digital, .container-3d, .container-packaging { width: 100%; }
+    .container-offset h2 { padding-top: 105px;
+                            font-size: 35px; }
+    .container-offset p  { padding-bottom: 105px;
+                            font-size: 25px; }
+    .container-digital h2 { padding-top: 90px;
+                            font-size: 35px; }
+    .container-digital p { padding-bottom: 90px;
+                            font-size: 25px; }
+    .container-3d h2 { padding-top: 85px;
+                        font-size: 35px; }
+    .container-3d p { padding-bottom: 85px;
+                    font-size: 25px;  }
+    .container-packaging h2 { padding-top: 105px;
+                            font-size: 35px; }
+    .container-packaging p { padding-bottom: 105px;
+                            font-size: 25px; }
+
+    /*extras*/
+    .servicio-barnizado h2 { font-size: 35px; }
+    .servicio-barnizado p { font-size: 25px;
+                            padding-bottom: 70px; }
+    .servicio-relieve h2 { font-size: 35px; }
+    .servicio-relieve p { font-size: 25px;
+                        padding-bottom: 70px; }
+
+    /*contacto*/
+    .contact h1 { font-size: 40px; }
+    .contact p { font-size: 20px; }
+    .contact h1, .contact p { padding-left: 80px;
+                                padding-right: 80px; }
+
+    /*asesoria*/
+    .form-container { max-width: 1000px; }
+    .form-container h2  { font-size: 30px; }
+    .form-group label { font-size: 22px; }
+    .form-group input, .form-group textarea { font-size: 18px; }
+    .btn-submit { font-size: 20px; }
+
+    /*footer*/
+    span { font-size: 18px;
+            align-items: center;
+            padding-left: 400px; }
+
+
+
+}
